@@ -1,10 +1,4 @@
 # ToastFinal
-toast的基本封装,包括单例化,成功和失败的提示吐司
-
-
-
-```java
-# ToastFinal
 toast的封装,包括单例化,成功和失败的提示吐司,解决小米手机不弹出吐司的坑爹问题.
 
 [![](https://jitpack.io/v/hss01248/ToastFinal.svg)](https://jitpack.io/#hss01248/ToastFinal)
@@ -20,12 +14,6 @@ toast的封装,包括单例化,成功和失败的提示吐司,解决小米手机
 3.提供了成功和失败的两个自定义ui的吐司.这两个状态吐司会按指定时长显示.(默认short)
 
 # 使用
-
-**ToastFinal**来使用,作为包装层,
-
-
-
-
 
 
 
@@ -52,20 +40,20 @@ Step 2. Add the dependency
 
 
 
-## 提供有以下方法:
+## ToastFinal提供有以下方法:
 
 ###  初始化:
 
-​```
+```
 
 Application初始化时传入相应参数:
 init(@NonNull Application context, @NonNull Handler mainHandler, boolean isDebugMode,boolean isUseCustomToast)
 
-​```
+```
 
 ### 使用时静态方法调用:
 
-​```
+```
 show(String text)
 
 cancel()
@@ -78,7 +66,7 @@ showSuccess(String text)
 
 showFail(String text)
 
-​```
+```
 
 
 
@@ -91,7 +79,6 @@ showFail(String text)
 ![success](success.jpg)
 
 
-
 # 感谢(Thanks)
 
 [SuperToasts](https://github.com/JohnPersano/SuperToasts)
@@ -99,4 +86,3 @@ showFail(String text)
 [ToastCompat](https://github.com/zhitaocai/ToastCompat_Deprecated)
 
 [shape画一个阴影](http://www.jianshu.com/p/4a6877b37967)
-```
